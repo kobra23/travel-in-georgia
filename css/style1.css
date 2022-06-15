@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.main{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,30px));
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 300px;
+}
+h1{
+    margin-left: 600px
+}
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.kanioni{
+    background-color: rgba(70, 207, 16, 0.652);
+    width: 100%;
+    height: 1200px;
+}
+@media (max-width:320px){
+    h1{
+        margin-left: 110px;
+    }
+    img{
+        margin-bottom: 60px;
+    }
+}
