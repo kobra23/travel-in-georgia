@@ -35,9 +35,10 @@ p{
     align-items: center;
     justify-content: center;
     display: flex;
+    font-size: 2rem;
 }
 .kanioni{
-    background-color: rgba(70, 207, 16, 0.652);
+    background-color: rgba(131, 16, 207, 0.652);
     width: 100%;
     height: 1200px;
 }
